@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+   <title>Welcome to Love Share</title>
+    <script language="javascript" type="text/javascript" src="/Html/js/main.js"></script>
+    <script language="javascript" type="text/javascript" src="/Html/js/jquery.js" ></script>
+     <script type="text/javascript">
+	$(document).ready(function()
+	   {
+           $("body").css("display", "none");
+ 
+           $("body").fadeIn(1000);
+ 
+           $("a.transition").click(function(event){
+           event.preventDefault();
+           linkLocation = this.href;
+           $("body").fadeOut(750, redirectPage);      
+        });
+         
+    function redirectPage() 
+         {
+        window.location = linkLocation;
+         }
+       });
+</script>
+
+   	<link rel="stylesheet" href="css/demo.css">
+		<link rel="stylesheet" href="css/forkit.css"> 
+</head>
+
+<body style="background: url(Images/main.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;" >
+   <br/><br/><br/>
+		<script src="/Html/js/forkit.js"></script>
+      <center>  <h1 style=" font:normal 20pt Arial;
+                    color:#000000;
+                    text-shadow: 0 1px 0 #ccc,
+                    0 2px 0 #c9c9c9,
+                    0 3px 0 #bbb,
+                    0 4px 0 #b9b9b9,
+                    0 5px 0 #aaa,
+                    0 6px 1px rgba(0,0,0,.1),
+                    0 0 5px rgba(0,0,0,.1),
+                    0 1px 3px rgba(0,0,0,.3),
+                    0 3px 5px rgba(0,0,0,.2),
+                    0 5px 10px rgba(0,0,0,.25),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.15);"
+
+         align="center"><font color=#000000>Welcome To Love Share++</font></h1><br />
+		<br /><br />	<a class="transition" href="testing.html"> <img height="10%" alt="clickhere" width="10%" style="display: block; margin-left: auto; margin-right: auto; height: 120px; width: 120px; margin-top:; margin-bottom:; " src="Images/enter.gif" /></a>
+                     
+					<br /><br /><br /><br /><br />
+        
+
+</body>
+</html>

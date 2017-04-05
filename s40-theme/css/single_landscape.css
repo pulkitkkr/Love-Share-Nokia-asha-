@@ -1,0 +1,33 @@
+.ui-title {
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	/*display: block;*/
+	width:280px;
+	vertical-align:top;
+}
+
+#gallery {
+    width: 280px;
+}
+
+.im0 { margin-left: 70px;}
+.im1 { margin-left: -70px;}
+.im2 { margin-left: -210px;}
+.im3 { margin-left: -350px;}
+.im4 { margin-left: -490px;}
+
+.info { width: 304px;}
+
+.container {
+	width: 320px;
+	overflow: hidden;
+}
+#videoInfo { width: 1600px;}
+
+.div0 { margin-left: 0px;}
+.div1 { margin-left: -320px;}
+.div2 { margin-left: -640px;}
+.div3 { margin-left: -960px;}
+.div4 { margin-left: -1280px;}
+

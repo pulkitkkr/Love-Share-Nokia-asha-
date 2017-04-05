@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <widget xmlns="http://www.w3.org/ns/widgets" height="200" id="http://LoveShare" version="1.0.0" viewmodes="windowed fullscreen" width="200">
+    
+    <name short="Love Share">Love Share++</name>    
+
+    <description>
+       Check the love percent of you and your partner and share it with whole world 
+    </description>
+    
+    <!-- Note: Author href MUST BE Url encoded 
+        @see http://en.wikipedia.org/wiki/Percent-encoding -->    
+    <author email="pulkitkkr@gmail.com" href="">
+        Pulkit Kakkar
+    </author>
+    
+    <icon src="icon.png"/>
+
+    <content src="index.html"/>
+    
+    <license>
+	   
+    </license>
+    
+   	<feature name="nokia://s40.nokia.com/SAWRT/2.3" required="true" />
+</widget>

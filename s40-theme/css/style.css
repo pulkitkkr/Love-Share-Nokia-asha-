@@ -1,0 +1,100 @@
+.header {
+    background: #666;
+}
+.subtitle {
+    height: 21px;
+    background-color: #0099ff;
+    padding-left: 10px;
+    color: white;
+}
+.category {
+    background-color: #eaeaea;
+    font-size: medium;
+    padding-left: 9px;
+    padding-top: 8px;
+    height: 28px;
+    border-bottom: 2px solid #F7F6F7;
+}
+#shiftLeft, #shiftRight {
+    display: inline-block;
+    width: 20px;
+    height: 135px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #797979;
+}
+#shiftLeft {
+    background-image: url("../images/gallery-left.png");
+}
+#shiftRight {
+    background-image: url("../images/gallery-right.png");
+}
+#gallery {
+    display: inline-block;
+    background-color: #cccccc;
+    overflow: hidden;
+/* width - check landscape/portrait css */
+    height: 135px;
+}
+#galleryInner {
+    width: 700px;
+    height: 135px;
+    -webkit-transition: margin-left 0.5s ease;
+}
+/* .im0 - check landscape/portrait css */
+.imgHolder {
+    background-color: #c1bfbf;
+    width: 139px;
+    height: 135px;
+    overflow: hidden;
+    text-align: center;
+    border-left: 1px solid gray;
+}
+.imgInner {
+	text-align: center;
+}
+.overlay {
+	width: 50px;
+	height: 70px;
+	padding-left: 45px;
+	margin-top: -70px;
+}
+.lastImg {
+    border-right: 1px solid gray;
+}
+.videoItemImage {
+    border: 1px solid gray;
+    overflow: hidden;
+    height: 60px;
+    width: 80px;
+}
+.listOverlay {
+	width: 33px;
+	height: 46px;
+	padding-left: 24px;
+	margin-top: -46px;
+}
+.itemDescription {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.itemTitle {
+    font-weight: bold;
+}
+.itemDuration {
+    color: gray;
+}
+.itemViewCount {
+    color: gray;
+}
+#errDiv {
+    color: red;
+}
+#videoInfo .itemViewCount {
+	margin-top: -18px;
+	text-align: right;
+}
+.info {
+	display: inline-block;
+	padding: 8px;
+} 
